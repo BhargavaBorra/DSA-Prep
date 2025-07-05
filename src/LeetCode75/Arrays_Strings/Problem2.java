@@ -8,7 +8,7 @@ import java.util.Map;
  * Step2: Calculate the GCD of the two strings str1, str2
  * Step3: Return the substring of the either string from 0 to gcd
  */
-public class GCDStrings {
+public class Problem2 {
 
     public int gcd(int x, int y){
         if(y==0)
@@ -33,7 +33,7 @@ public class GCDStrings {
         Testcases.put("ABCABC","ABC");
         Testcases.put("ABABAB","ABAB");
         Testcases.put("LEET","CODE");
-        GCDStrings gcdStrings = new GCDStrings();
+        Problem2 gcdStrings = new Problem2();
         for(String key : Testcases.keySet()) {
             System.out.println("Str1 = "+key+" Str2 = "+Testcases.get(key));
             System.out.println(gcdStrings.gcdOfStrings(key, Testcases.get(key)));

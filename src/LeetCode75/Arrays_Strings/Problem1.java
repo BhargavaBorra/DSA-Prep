@@ -1,6 +1,6 @@
 package LeetCode75.Arrays_Strings;
 
-public class MergeStringsAlternately {
+public class Problem1 {
     public String mergeAlternately2ptrs(String word1, String word2) {
         int i=0 ,j=0;
         StringBuilder concatination = new StringBuilder();
@@ -27,7 +27,7 @@ public class MergeStringsAlternately {
     public static void main(String[] args){
         String word1="abcd";
         String word2="pq";
-        MergeStringsAlternately msa = new MergeStringsAlternately();
+        Problem1 msa = new Problem1();
         System.out.println(msa.mergeAlternately2ptrs(word1,word2));
         System.out.println(msa.mergeAlternately1ptr(word1,word2));
     }
